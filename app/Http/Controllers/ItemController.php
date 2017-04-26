@@ -24,9 +24,9 @@ class ItemController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function add()
     {
-        //
+        return view('add');
     }
 
     /**
@@ -37,7 +37,20 @@ class ItemController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $this->validate($request, [
+      'judul' => 'required'
+      ]);
+
+      $tambah= new Item();
+     $tambah->judul = $request['judul'];
+     $tambah->kategori = $request['kategori'];
+     $tambah->umur = $request['umur'];
+     $tambah->tujuan = $request['tujuan'];
+     $tambah->kepribadian = $request['kepribadian'];
+     $tambah->deskripsi = $request['deskripsi'];
+     $tambah->gambar = "";
+     $tambah->save();
+       return redirect()->to('/');  
     }
 
     /**
@@ -59,7 +72,8 @@ class ItemController extends Controller
      */
     public function edit($id)
     {
-        //
+    $readedit = Item::where('id', $id)->first();
+return view('edit')->with('readedit', $readedit); //
     }
 
     /**
@@ -71,7 +85,16 @@ class ItemController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $update= Item::where('id', $id)->first();
+     $update->judul = $request['judul'];
+     $update->kategori = $request['kategori'];
+     $update->umur = $request['umur'];
+     $update->tujuan = $request['tujuan'];
+     $update->kepribadian = $request['kepribadian'];
+     $update->deskripsi = $request['deskripsi'];
+     $update->gambar = "";
+     $update->update();
+       return redirect()->to('/');   //
     }
 
     /**
@@ -82,6 +105,9 @@ class ItemController extends Controller
      */
     public function destroy($id)
     {
+        $del=Item::find($id);
+        $del->delete();
+        return redirect()->to('/');
         //
     }
 }

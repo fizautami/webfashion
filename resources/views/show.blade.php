@@ -21,12 +21,12 @@
   			Readmore
   <i class="material-icons right">send</i></a>
 
-  <a href="{{ url('read', $data->id) }}" class="btn btn-flat red darken-2 waves-effect waves-light white-text"
+  <a href="{{ url('delete', $data->id) }}" class="btn btn-flat red darken-2 waves-effect waves-light white-text"
   onclick="return confirm('Anda yakin ingin dihapus ?')">
   			Delete
   <i class="material-icons right">delete</i></a>
 
-<a href="{{ url('read', $data->id) }}" class="btn btn-flat blue lighten-1 waves-effect waves-light white-text"
+<a href="{{ url('edit', $data->id) }}" class="btn btn-flat blue lighten-1 waves-effect waves-light white-text"
  
 >
   			Edit
