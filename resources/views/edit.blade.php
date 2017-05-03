@@ -6,7 +6,7 @@
 </div>
 
 <div class="section">
-	<form action="{{ url('update',$readedit->id) }}" method="POST">
+	<form action="{{ url('update',$readedit->id) }}" method="POST" enctype="multipart/form-data">
   {!! csrf_field() !!}
     <div class="row">
           <div class="input-field col s12">
@@ -50,13 +50,17 @@
           </div>
     </div>
 
-    <div class="row">
-          <div class="input-field col s12">
-            <input type="file" class="validate" name="gambar">
-            <label for="title">Gambar</label>
-          </div>
+       <div class="row">
+        <div class="col s6">
+            <img src="/image/{{$readedit->gambar}}" id="showgambar" style="max-width:200px;max-height:200px;float:left;" />
+        </div>
     </div>
-   
+    <div class="row">
+        <div class="input-field col s6">
+          <input type="file" id="inputgambar" name="gambar" class="validate"/ >
+        </div>
+      </div>
+
    <button type="submit" class="btn btn-flat pink accent-3 waves-effect waves-light white-text right">Submit <i class="material-icons right">send</i></button>
 	</form>
 </div>

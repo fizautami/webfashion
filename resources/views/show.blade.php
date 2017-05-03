@@ -12,6 +12,13 @@
 
 	<div class="row">
 		<div class="col s12" >
+		    @if(!$data->gambar=="")
+              <div class="row">
+              <div class="col s6">
+              <img src="/image/{{$data->gambar}}" id="showgambar" style="max-width:200px;max-height:200px;float:left;" />
+              </div>
+              </div>
+            @endif
 			<h5>{{$data->judul}}</h5>
 			<div class="divider"></div>
 			<p>{{$data->deskripsi}}</p>

@@ -48,7 +48,11 @@ class ItemController extends Controller
      $tambah->tujuan = $request['tujuan'];
      $tambah->kepribadian = $request['kepribadian'];
      $tambah->deskripsi = $request['deskripsi'];
-     $tambah->gambar = "";
+         $file       = $request->file('gambar');
+     $fileName   = $file->getClientOriginalName();
+     $request->file('gambar')->move("image/", $fileName);
+     $tambah->gambar =  $fileName;
+    
      $tambah->save();
        return redirect()->to('/');  
     }
@@ -92,7 +96,10 @@ return view('edit')->with('readedit', $readedit); //
      $update->tujuan = $request['tujuan'];
      $update->kepribadian = $request['kepribadian'];
      $update->deskripsi = $request['deskripsi'];
-     $update->gambar = "";
+     $file       = $request->file('gambar');
+        $fileName   = $file->getClientOriginalName();
+        $request->file('gambar')->move("image/", $fileName);
+        $update->gambar = $fileName;
      $update->update();
        return redirect()->to('/');   //
     }

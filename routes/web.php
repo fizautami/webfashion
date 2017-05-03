@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','ItemController@index');
+Route::get('/','LandingController@index');
 
 Route::get('/add','ItemController@add');
 
@@ -22,3 +22,5 @@ Route::get('/edit/{id}','ItemController@edit');
 Route::post('/update/{id}','ItemController@update');
 
 Route::get('/delete/{id}','ItemController@destroy');
+
+Route::get('/admin','ItemController@index');

@@ -31,6 +31,24 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 </script>
+<script type="text/javascript">
 
+      function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#showgambar').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#inputgambar").change(function () {
+        readURL(this);
+    });
+
+</script>
 </body>
 </html>
