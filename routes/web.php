@@ -24,3 +24,6 @@ Route::post('/update/{id}','ItemController@update');
 Route::get('/delete/{id}','ItemController@destroy');
 
 Route::get('/admin','ItemController@index');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

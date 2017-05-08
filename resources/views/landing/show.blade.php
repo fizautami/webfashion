@@ -37,11 +37,11 @@
   </div>
 
   <div class="parallax-container valign-wrapper" style="height: 100vh">
-      <div class="parallax"><img src="assets/wallpaper1.jpg"></div>
+      <div class="parallax"><img src="assets/wallpaper4.jpg"></div>
       <div class="container center">
      
-      		<h1 class="black-text">Selamat Datang di Fashioniza</h1>
-      		<h4 class="black-text">Temukan Fashion sesuai umurmu</h3>
+      		<h1 class="black-text">Welcome to Fashioniza</h1>
+      		<h4 class="black-text">Be a smart fashionable</h3>
       </div>
     </div>
 
@@ -54,7 +54,7 @@
         <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/wallpaper1.jpg" style="background-size: cover; height: 200px; width: 100%;">
+              <img src="assets/walpaper4.jpg" style="background-size: cover; height: 200px; width: 100%;">
               <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
@@ -70,7 +70,7 @@
         <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/wallpaper1.jpg" style="background-size: cover; height: 200px; width: 100%;">
+              <img src="assets/wallpaper3.jpg" style="background-size: cover; height: 200px; width: 100%;">
               <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
@@ -86,7 +86,7 @@
         <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/wallpaper1.jpg" style="background-size: cover; height: 200px; width: 100%;">
+              <img src="assets/wallpaper3.jpg" style="background-size: cover; height: 200px; width: 100%;">
               <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
@@ -109,16 +109,16 @@
 
 
     <div class="parallax-container">
-      <div class="parallax"><img src="assets/wallpaper2.jpg"></div>
+      <div class="parallax"><img src="assets/wallpaper5.png"></div>
     </div>
 <div class="center">
       <h2>Fashion Trend 2017</h2>
  <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
-    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
-    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
-    <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+    <a class="carousel-item" href="#one!"><img src="assets/slider/c1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/slider/c2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/slider/c3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/slider/c4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/slider/c5.jpg"></a>
   </div>
   </div>
 
