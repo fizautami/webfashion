@@ -12,6 +12,13 @@
 	@section('css')
 
     @show
+
+    <style type="text/css">
+    	h3{
+    		margin:0px;
+    		padding-top: 30px;
+    	}
+    </style>
 </head>
 <body>
 
@@ -22,47 +29,85 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/admin">Admin</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="/support">Support</a></li>
+        
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="/admin">Admin</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="/support">Support</a></li>
+        
+        
       </ul>
     </div>
   </nav>
   </div>
 
-  <div class="parallax-container valign-wrapper" style="height: 100vh">
-      <div class="parallax"><img src="assets/wallpaper4.jpg"></div>
+  <div class="parallax-container valign-wrapper" style="pink lighten-3: 100vh">
+      <div class="parallax"><img src="assets/wallpaper123.jpg"></div>
       <div class="container center">
      
-      		<h1 class="black-text">Welcome to Fashioniza</h1>
-      		<h4 class="black-text">Be a smart fashionable</h3>
+      		<h3 class="pink-text">Be a Smart Fashionable</h3>
       </div>
     </div>
 
 
+  
+
+
+
+<div class="center pink darken-1">
+	
+      <h3 class="white-text">Simple Fashion 2017</h3>
+ <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="assets/slider/a1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/slider/a6.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/slider/a3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/slider/a4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/slider/a5.jpg"></a>
+  </div>
+  </div>
+
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/wallpaper5.png"></div>
+    </div>
+
+
+    <div class="center pink darken-1">
+	
+      <h3 class="white-text">Simple Fashion Untuk Remaja</h3>
+ <div class="carousel darken-1">
+    <a class="carousel-item" href="#one!"><img src="assets/slider/b1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="assets/slider/b2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/slider/b3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/slider/b4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/slider/b5.jpg"></a>
+  </div>
+  </div>
+
+
+
+  <div class="center purple">
+  <div class="row">
+    <h3 class="white-text">Video</h3>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/d1fWA1O9Tsw" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=3elCtMuN9sY" frameborder="0" allowfullscreen></iframe>
+     </div>
+  </div>
+      <div class="center">
     
-
-<div class="center">
-    <h2>Accessoris</h2>
     <div class="row">
+    <h4>Accessoris</h4>
         <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/walpaper4.jpg" style="background-size: cover; height: 200px; width: 100%;">
-              <span class="card-title">Card Title</span>
+              <img src="assets/Backpack.jpg" style="background-size: cover; height: 200px; width: 100%;">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Backpack (Tas Punggung) sangat penting bagi anak kuliahan. Agar tidak repot menenteng buku, leptop, binder pake tangan, backpack yang tidak terlalu besar tetapi tetap kelihatan style sangat diperlukan. Contohnya warna netral, pattern yang fun.</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              
             </div>
           </div>
         </div>
@@ -70,15 +115,14 @@
         <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/wallpaper3.jpg" style="background-size: cover; height: 200px; width: 100%;">
-              <span class="card-title">Card Title</span>
+              <img src="assets/scraf.jpg" style="background-size: cover; height: 200px; width: 100%;">
+              
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Scraf (kain serba guna) merikan kesan tampil beda di setiap acara,tanpa harus beli baju baru. Scaraf memiliki banyak bentuk, misalnya squre scraf dan long scraf.</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              
             </div>
           </div>
         </div>
@@ -86,15 +130,14 @@
         <div class="col s4">
           <div class="card">
             <div class="card-image">
-              <img src="assets/wallpaper3.jpg" style="background-size: cover; height: 200px; width: 100%;">
-              <span class="card-title">Card Title</span>
+              <img src="assets/cewek2.png" style="background-size: cover; height: 200px; width: 100%;">
+              
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Jam tangan tidak hanya sebuah alat petunjuk waktu saja. Dengan kombinasi yang sesuai penampilan anda semakin menarik dan memancarkan sebuah karisma. Pilihlah jenis jam tangan sesuaikan keadaan dan busana yang dikenakan.</p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              
             </div>
           </div>
         </div>
@@ -104,51 +147,26 @@
             
 
     </div>
-
-
-
-
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/wallpaper5.png"></div>
-    </div>
-<div class="center">
-      <h2>Fashion Trend 2017</h2>
- <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="assets/slider/c1.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="assets/slider/c2.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="assets/slider/c3.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="assets/slider/c4.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="assets/slider/c5.jpg"></a>
-  </div>
-  </div>
-
-  <div class="center blue lighten-4">
-    <h2>Video</h2>
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/d1fWA1O9Tsw" frameborder="0" allowfullscreen></iframe>
-  </div>
-      
+         
 
        <footer class="page-footer">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">Fashioniza</h5>
+                <p class="grey-text text-lighten-4">Pemilihan Fashion</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Sosial Media</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/_fizhah_">@_fizhah_</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2017 Copyright Text
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>

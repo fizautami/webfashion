@@ -27,3 +27,9 @@ Route::get('/admin','ItemController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+
+Route::get('/support', 'SupportController@index');
+
+
+
