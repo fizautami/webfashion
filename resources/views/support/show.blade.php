@@ -57,6 +57,7 @@
     <option value="casual">Casual</option>
     <option value="hangout">Hangout</option>
     <option value="formal">Formal</option>
+    <option value="kantor">Kantor</option>
   </select>
 
 

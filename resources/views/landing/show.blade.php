@@ -28,12 +28,12 @@
       <a href="#!" class="brand-logo">Fashioniza</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/admin">Admin</a></li>
+        <li><a href="/kontributor">Kontributor</a></li>
         <li><a href="/support">Support</a></li>
         
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="/admin">Admin</a></li>
+        <li><a href="/kontributor">Kontributor</a></li>
         <li><a href="/support">Support</a></li>
         
         
@@ -91,7 +91,7 @@
   <div class="row">
     <h3 class="white-text">Video</h3>
      <iframe width="560" height="315" src="https://www.youtube.com/embed/d1fWA1O9Tsw" frameborder="0" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=3elCtMuN9sY" frameborder="0" allowfullscreen></iframe>
+     
      </div>
   </div>
       <div class="center">
@@ -154,12 +154,14 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Fashioniza</h5>
-                <p class="grey-text text-lighten-4">Pemilihan Fashion</p>
+                <p class="grey-text text-lighten-4">Instagram</p>
+                <p class="grey-text text-lighten-4">Instagram</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Sosial Media</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="https://instagram.com/_fizhah_">@_fizhah_</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://instagram.com/_fizhah_">@_fizhah_</a></li>
                 </ul>
               </div>
             </div>

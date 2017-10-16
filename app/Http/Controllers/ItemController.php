@@ -73,6 +73,8 @@ class ItemController extends Controller
     public function show($id)
     {
         //
+        $readedit = Item::where('id', $id)->first();
+        return view('read')->with('data',$readedit);
     }
 
     /**
