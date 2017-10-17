@@ -22,7 +22,7 @@ Route::get('/edit/{id}','ItemController@edit');
 Route::post('/update/{id}','ItemController@update');
 
 Route::get('/delete/{id}','ItemController@destroy');
-Route::get('/read/{id}'),'ItemController@show');
+Route::get('/read/{id}','ItemController@show');
 Route::get('/kontributor','ItemController@index');
 Auth::routes();
 

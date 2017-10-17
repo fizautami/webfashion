@@ -18,11 +18,14 @@
     		margin:0px;
     		padding-top: 30px;
     	}
+    	body{
+    		overflow-x: hidden;
+    	}
     </style>
 </head>
 <body>
 
-<div class="navbar-fixed">
+<div class="nav-extended nav-fixed">
   <nav>
     <div class="nav-wrapper container">
       <a href="#!" class="brand-logo">Fashioniza</a>
@@ -98,7 +101,7 @@
     
     <div class="row">
     <h4>Accessoris</h4>
-        <div class="col s4">
+        <div class="col m4 s12">
           <div class="card">
             <div class="card-image">
               <img src="assets/Backpack.jpg" style="background-size: cover; height: 200px; width: 100%;">
@@ -112,7 +115,7 @@
           </div>
         </div>
 
-        <div class="col s4">
+        <div class="col m4 s12">
           <div class="card">
             <div class="card-image">
               <img src="assets/scraf.jpg" style="background-size: cover; height: 200px; width: 100%;">
@@ -127,7 +130,7 @@
           </div>
         </div>
 
-        <div class="col s4">
+        <div class="col m4 s12">
           <div class="card">
             <div class="card-image">
               <img src="assets/cewek2.png" style="background-size: cover; height: 200px; width: 100%;">
