@@ -26,6 +26,14 @@ class ItemController extends Controller
        return view('show')->with('datas',$datas); //
     }
 
+
+    public function logout()
+    {
+        auth()->logout();
+
+        return redirect('/');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

@@ -73,8 +73,7 @@
 
   <br>
 
-  @if($data==null)
-
+  @if($data==null AND $data!="")
   	<h4 align="center">Hasilnya tidak ada yang cocok, kami menambahkan segera!</h4>
   @elseif($data!=null)
   	<h4 align="center">Hasilnya kamu cocok dengan : </h4>

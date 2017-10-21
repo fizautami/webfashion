@@ -8,10 +8,15 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Fashioniza</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <head>
+    <title>Web Fashion</title>
+
+    
+</head>
 
     <!-- Scripts -->
     <script>
@@ -36,7 +41,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                       Fashioniza
                     </a>
                 </div>
 

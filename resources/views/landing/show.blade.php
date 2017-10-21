@@ -157,14 +157,18 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Fashioniza</h5>
-                <p class="grey-text text-lighten-4">Instagram</p>
-                <p class="grey-text text-lighten-4">Instagram</p>
+                <p class="grey-text text-lighten-4">Instagram Admin</p>
+                <p class="grey-text text-lighten-4">Blog Admin</p>
+                <p class="grey-text text-lighten-4">Beuaty Blogger</p>
+                 <p class="grey-text text-lighten-4">Brand Cusmetics</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Sosial Media</h5>
+                <h5 class="white-text">Link</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/_fizhah_">@_fizhah_</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://instagram.com/_fizhah_">@_fizhah_</a></li>
+                  <p><a class="grey-text text-lighten-3" href="https://instagram.com/_fizhah_">@_fizhah_</a></p>
+                  <p><a class="grey-text text-lighten-3" href="http://fizhah96.blogspot.co.id/">fizhah96.blogspot.co.id</a></p>
+                    <p><a class="grey-text text-lighten-3" href="http://beautynesia.id/">beautynesia.id</a></li>
+                     <p><a class="grey-text text-lighten-3" href="https://www.maybelline.com/">maybelline</a></p>
                 </ul>
               </div>
             </div>
